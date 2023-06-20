@@ -1,0 +1,1 @@
+alert("Mammoth Interactive Content!");

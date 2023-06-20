@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+    <style>
+        p {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <p id="pText">Mammoth Interactive</p>
+    <button onclick="changeTheText()">Change the text</button>
+    <script type="text/javascript">
+        var variableNumber = 31;
+        var float = 24.63;
+        var varInt = 23;
+        var varString = "AWESOME! ";
+        var space = " ";
+
+        // array (It's like an egg cart)
+        var numArray = [0, 4, 9, 7, 10, 'M'];
+        var stringArray = ["A", "B", "C"];
+
+        // object creation
+        var car = {name: "Tesla", 
+        range: 475, 
+        unit: "km",
+        color: "red",
+        topSpeed: 250,
+        sunroof: "Yes"
+        };
+
+        function changeTheText(){
+            var scopeVariable = 11;
+            variableNumber = variableNumber + 10;
+            document.getElementById("pText").innerHTML = car.name + space + car.range + space + car.unit;
+;
+        }
+
+        function printScore(){
+            scopeVariable = 33;
+        }
+    </script>
+</body>
+</html>

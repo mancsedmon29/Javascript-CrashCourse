@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If Statement</title>
+
+</head>
+<body>
+    <p id="pText">Mammoth Interactive!</p>
+    <button onclick="buttonFunction0()"> Click Me! </button>
+    <button onclick="buttonFunction1()"> Another Font </button>
+    <script type="text/javascript">
+        function buttonFunction0(){
+            document.getElementById('pText').style.color = 'orange';
+            document.getElementById('pText').style.fontSize = '50px';
+            document.getElementById('pText').style.fontFamily = "Impact";
+        }
+
+        function buttonFunction1() {
+            document.getElementById('pText').style.color = 'blue';
+            document.getElementById('pText').style.fontSize = '90px';
+            document.getElementById('pText').style.fontFamily = 'Courier';
+
+        }
+    </script>
+</body>
+</html>
